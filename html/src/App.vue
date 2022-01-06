@@ -1,4 +1,6 @@
-<script script>
+<script setup>
+import NUI from './nui';
+
 NUI.OnKeyEvent(['Escape'], () => {
   NUI.Post('boilerplate', 'close');
 });
